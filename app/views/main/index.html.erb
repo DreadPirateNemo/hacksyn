@@ -2,8 +2,6 @@
   <h1>Welcome to Hacksyn!</h1>
 </div>
 
-<% if @user %>
-  Logged in as: <%= @user.email %>
+<%= button_to 'Connect Twitter', '/auth/twitter', method: :post, class: 'btn btn-primary' %>
 
-  <%= button_to 'Logout', logout_path, method: :delete, class: "btn btn-outline-primary" %>
-<% end %>
+<%= button_to 'Connect Zoho', '/auth/zoho', method: :post, class: 'btn btn-secondary' %>

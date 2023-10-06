@@ -73,3 +73,14 @@ group :test do
 end
 
 gem "rubocop", "~> 1.56"
+
+gem "rubocop-rails"
+
+gem 'zoho_hub'
+
+gem "omniauth-twitter", "~> 1.4"
+gem "tweetkit", "~> 0.2.0"
+gem "omniauth-rails_csrf_protection", "~> 1.0"
+
+
+gem "omniauth-zoho", "~> 0.3.0"
